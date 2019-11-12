@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370866F8D9A686135CE6FD56 /* Pods_DJCocoapods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985906F1DBE43DBEA94BBE02 /* Pods_DJCocoapods_Tests.framework */; };
-		51799DEDE43B34727302C612 /* Pods_DJCocoapods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848D8A8C6331E957DB36A3D9 /* Pods_DJCocoapods_Example.framework */; };
+		18E8B5C9DE9515D41907CAB3 /* libPods-DJCocoapods_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F35E28E2228390BB3ABE39FF /* libPods-DJCocoapods_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		62BE4E0FD7565F95431FE97E /* libPods-DJCocoapods_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D66A25AFFFBCA55A87F0CD7 /* libPods-DJCocoapods_Tests.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0A9B94B77A7E3DD8FF0E315B /* Pods-DJCocoapods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJCocoapods_Example.debug.xcconfig"; path = "Target Support Files/Pods-DJCocoapods_Example/Pods-DJCocoapods_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D66A25AFFFBCA55A87F0CD7 /* libPods-DJCocoapods_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJCocoapods_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F40B2C914DD77A38316D19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5479CFA35156A4344EB61286 /* Pods-DJCocoapods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJCocoapods_Example.release.xcconfig"; path = "Target Support Files/Pods-DJCocoapods_Example/Pods-DJCocoapods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5CB7DBF1D76CE37109558833 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -61,12 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		848D8A8C6331E957DB36A3D9 /* Pods_DJCocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJCocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		985906F1DBE43DBEA94BBE02 /* Pods_DJCocoapods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJCocoapods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAF69C7F5EB7759FDC92D38 /* Pods-DJCocoapods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJCocoapods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DJCocoapods_Tests/Pods-DJCocoapods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAEC1E02DF4A54E84C2670C7 /* Pods-DJCocoapods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJCocoapods_Tests.release.xcconfig"; path = "Target Support Files/Pods-DJCocoapods_Tests/Pods-DJCocoapods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E1609F305ACA06094120DE44 /* DJCocoapods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DJCocoapods.podspec; path = ../DJCocoapods.podspec; sourceTree = "<group>"; };
+		F35E28E2228390BB3ABE39FF /* libPods-DJCocoapods_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJCocoapods_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				51799DEDE43B34727302C612 /* Pods_DJCocoapods_Example.framework in Frameworks */,
+				18E8B5C9DE9515D41907CAB3 /* libPods-DJCocoapods_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				370866F8D9A686135CE6FD56 /* Pods_DJCocoapods_Tests.framework in Frameworks */,
+				62BE4E0FD7565F95431FE97E /* libPods-DJCocoapods_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				848D8A8C6331E957DB36A3D9 /* Pods_DJCocoapods_Example.framework */,
-				985906F1DBE43DBEA94BBE02 /* Pods_DJCocoapods_Tests.framework */,
+				F35E28E2228390BB3ABE39FF /* libPods-DJCocoapods_Example.a */,
+				0D66A25AFFFBCA55A87F0CD7 /* libPods-DJCocoapods_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8E6FD69B85517C829DCF630E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,28 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E6FD69B85517C829DCF630E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DJCocoapods_Example/Pods-DJCocoapods_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DJCocoapods/DJCocoapods.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJCocoapods.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DJCocoapods_Example/Pods-DJCocoapods_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

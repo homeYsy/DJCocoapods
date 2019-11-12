@@ -1,0 +1,6 @@
+framework module DJCocoapods {
+  umbrella header "DJCocoapods-umbrella.h"
+
+  export *
+  module * { export * }
+}
